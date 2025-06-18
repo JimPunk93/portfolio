@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+
+<body>
+    <form action="/action_page.php">
+
+        <label for="fname"> First Name: </label> <br>
+        <input type="text" id="fname" placeholder="eg. Jamie" autofocus> <br> <br>
+        <label for="email"> Email: </label> <br>
+        <input type="email" id="email" placeholder="example@gmail.com"> <br> <br>
+
+        <p>Is this request personal or for a business?</p>
+        <input type="radio" id="business" name="requestType">
+        <label for="business"> Business </label><br>
+        <input type="radio" id="personal" name="requestType">
+        <label for="personal"> Personal </label><br><br>
+
+        <label for="message"> Your Message </label> <br>
+        <input type="text" id="message" placeholder="I am contacting you for..." size="50" > <br>
+
+        <input type="submit" value="Submit Form">
+
+    </form>
+</body>
+
+</html>
